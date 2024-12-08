@@ -1,0 +1,9 @@
+torch==2.5.1
+matplotlib==3.9.3
+opencv-python==4.10.0.84
+ultralytics==8.3.47
+pydantic==2.10.3
+anthropic==0.40.0
+ansicon==1.89.0
+appdirs==1.4.4
+flask==3.0.3

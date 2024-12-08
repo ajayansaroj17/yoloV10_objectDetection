@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./static:/app/static
+    environment:
+      - FLASK_ENV=development
+    container_name: ai_ajayan_monk
